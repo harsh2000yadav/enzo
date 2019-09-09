@@ -1,0 +1,82 @@
+.back {
+    background-color: #190061;
+    color: azure;
+}
+
+.window {
+    background-color: black;
+    height: 100%;
+}
+
+.nav{
+    background-color: #190061;
+    padding: 0;
+    margin: 0;
+    color: #818181;
+}
+
+#main{
+  transition: 0.5s;
+}
+
+.navSide{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #282828;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+}
+
+
+
+.navSide span{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.navSide a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+
+.navSide a:hover {
+    color: #f1f1f1;
+  }
+
+
+.navSide span:hover {
+  color: #f1f1f1;
+}
+  
+  .navSide .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .navSide {padding-top: 15px;}
+    .navSide a {font-size: 18px;}
+  }

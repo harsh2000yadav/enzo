@@ -41,7 +41,7 @@ router.post('/getin', formParser, function(req, res, next) {
 		if(!result) {
 			res.render('auth/login', {
 				title: req.app.conf.name,
-				error:'Bad username or password.'
+				error:'Wrong username or password.'
 			})
 		}
 		else {

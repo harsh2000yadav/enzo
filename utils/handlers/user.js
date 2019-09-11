@@ -23,7 +23,7 @@ function createNew(obj, cb) {
       if (user) {
         return cb(null, false);
       } else {
-        var bio = `Hey there! I'm ${obj.fn} ;)! Wish me on ${obj.day} ${
+        var bio = `Hey there! I'm ${obj.fn}! Wish me on ${obj.day} ${
           obj.month
         }`;
         var dob = obj.day + " " + obj.month + " " + obj.year;

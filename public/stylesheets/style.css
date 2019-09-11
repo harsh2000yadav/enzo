@@ -470,7 +470,7 @@ a ~ a {
 
 .tab-div {
   color: white;
-  background: linear-gradient(150deg,#26B99A 10%,rgb(38, 183, 110) 90%); */
+  background: linear-gradient(150deg,#FFC312 10%,rgb(38, 183, 110) 90%); 
 
 }
 .padding {
@@ -578,7 +578,7 @@ a {
 }
 
 .notify_message-success{
-    background-color: #26B99A;
+    background-color: #FFC312;
 }
 
 .notify_message-danger{

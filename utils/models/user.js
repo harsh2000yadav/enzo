@@ -4,21 +4,21 @@ var mongoose = require('mongoose');
 var bcrypt   = require('bcrypt-nodejs');
 // define the schema for our user model
 var userSchema = mongoose.Schema({
-    username:String, // _username_
-    password: String, // 123rikwdjbfp2ioeurroasodfj[OJ[Ojsjdfag*wef
-    firstname: String, // firstName
-    lastname: String, // lastName
-    bio: String, // A new bio
-    dob: String, // 23rd july 2018
-    followers: Array, // ["134wr3","1q2easd2"]
+    username:String, 
+    password: String, 
+    firstname: String, 
+    lastname: String,
+    bio: String, 
+    dob: String, 
+    followers: Array, 
     posts:Array, 
     profile_pic:String, // /public/profile_pic/username/user.png
-    chat_rooms:Array, // ["1234", "3456"]
-    lastLogin:String, // 10 min ago
-    notifications:Array, // [{msg:"New message from @user", link:"/chat/user"}]
+    chat_rooms:Array, 
+    lastLogin:String, 
+    notifications:Array,
 });
 
-// methods ======================
+
 // generating a hash
 userSchema.methods.generateHash = function(password) {
     return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);

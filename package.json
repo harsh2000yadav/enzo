@@ -35,12 +35,6 @@
   "description": "A social media website written in Node.js",
   "main": "./bin/www",
   "keywords": [
-    "social",
-    "media",
-    "nodejs",
-    "express",
-    "mongodb",
-    "mongoose",
-    "platform"
+    
   ]
 }

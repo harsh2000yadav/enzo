@@ -1,4 +1,5 @@
-const io = require('socket.io').listen(ServiceUIFrameContext);
+// const io = require('socket.io').listen(ServiceUIFrameContext);
+const io = require('socket.io');
 const express = require('express');
 var User = require('../models/user');
 var Room = require("../models/room");
@@ -51,7 +52,8 @@ sio.on("connection", function(socket) {
         socket.room = room; 
     });
     socket.on('msg', function(data) {
-        sendMsg(socket, data);        
+        console.log("MESSAGE SENT")
+        sendMsg(socket, data);
     });
     socket.on('typing', function(data) {
         type(socket);

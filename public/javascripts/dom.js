@@ -30,7 +30,7 @@ function show_new_notification(obj, type) {
 							layout : 'other',
 							ttl : 8000,
 							effect : 'thumbslider',
-							type : type, // notice, warning, error or success
+							type : type, 
 							onClose : function() {
 								//bttn.disabled = false;
 							}
@@ -41,8 +41,3 @@ function show_new_notification(obj, type) {
     });
     // create the notification
 }
-/** Incomplete pop-up image view feature [TODO]
-function viewImage(id) {
-    $("#modal_image_view")[0].src = $(`#${id}`)[0].src;
-}
-**/

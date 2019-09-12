@@ -1,4 +1,3 @@
-// utils/handlers/user.js
 var mongoose = require("mongoose");
 var User = require("../models/user");
 var bcrypt = require("bcrypt-nodejs");
@@ -31,7 +30,7 @@ function createNew(obj, cb) {
           username: obj.username,
           firstname: obj.fn,
           lastname: obj.ln,
-          dob: dob,
+          dob: dob, 
           bio: bio,
           profile_pic: "",
           posts: [],

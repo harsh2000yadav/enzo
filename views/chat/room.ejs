@@ -136,6 +136,9 @@
         }
         socket.emit('msg', data);
         $("#msg").val('');
+
+        //BAKCHODI
+        addMessage(e.target.value)
       }
       else {
         socket.emit('typing');

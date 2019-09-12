@@ -8,11 +8,10 @@ mongoose.connect(require("../../config/app").db.connectionUri, {
 });
 
 var chatSchema = mongoose.Schema({
-  id: String, // "12ojahsdbi2qwbdoihabfqyyegr8uyadf823798w791" Combined _id of users
-  users: Array, // ["John", "Doe"]
-  chats: Array // {txt:"Hi", by:"john", time:"10:35pm"}
+  id: String, 
+  users: Array, 
+  chats: Array
 });
 
 module.exports = mongoose.model("room", chatSchema);
 
-// create the model for users and expose it to our app

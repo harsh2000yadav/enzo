@@ -8,9 +8,9 @@ mongoose.connect(require("../../config/app").db.connectionUri, {
 });
 
 var keySchema = mongoose.Schema({
-  apiKey: String, // "12ojahsdbi2qwbdoihabfqyyegr8uyadf823798w791"
-  invokes: Number, // 2
-  stats: Array // {time:new Date(), request: reqArrayGoesHere}
+  apiKey: String, 
+  invokes: Number, 
+  stats: Array 
 });
 
 module.exports = mongoose.model("key", keySchema);

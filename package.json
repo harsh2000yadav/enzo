@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "scripts": {
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "apikeygen": "^1.1.0",
@@ -32,6 +33,7 @@
   "devDependencies": {
   },
   "description": "A social media website written in Node.js",
+  "main": "./bin/www",
   "keywords": [
     "social",
     "media",

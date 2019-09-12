@@ -1,4 +1,4 @@
-const io = require('socket.io');
+const io = require('socket.io').listen(ServiceUIFrameContext);
 const express = require('express');
 var User = require('../models/user');
 var Room = require("../models/room");

@@ -2,7 +2,7 @@
 <div class="column col-xs-12 col-sm-9 col-lg-10" style="margin:auto" id="main">
 
 <ul class="list-group">
-  <li class="list-group-item list-group-item-primary" style="background-color: #FFC312">
+  <li class="list-group-item list-group-item-primary mt-2" style="background-color: #FFC312">
     <img src="<%= user.profile_pic %>?cache=<%= Math.round() %>" class="gram-card-user-image">
      <a class="gram-card-user-name" href="/me"> @<%= user.username %>'s Dashboard</a> <br>
      <span class="label label-info" style="float:right;">last login <%= lastSeen %></span>
@@ -11,11 +11,11 @@
  </ul>
  <% for(var i=0;i<people.length;i++) { %>
  <% for(var z=0;z<people[i].posts.length;z++) { %>
-
-<div class="gram-card">
+  
+<div class="gram-card mt-4">
     <div class="gram-card-header">
       <img src="<%= people[i].profile_pic %>?cache=<%= Math.round() %>" class="gram-card-user-image lozad">
-      <a class="gram-card-user-name" href="/u/<%= people[i].posts[z].authorID %>"><%= people[i].posts[z].author %></a>
+      <a class="gram-card-user-name" href="/u/<%= people[i].posts[z].author %>"><%= people[i].posts[z].author %></a>
 
             <div class="dropdown gram-card-time">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="glyphicon glyphicon-option-vertical"></i></a>

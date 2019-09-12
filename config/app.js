@@ -5,7 +5,7 @@ module.exports = {
 		"port":4000
 	},
 	"db": {
-		"connectionUri":"mongodb://"+dbHost+":27017/project",
+		"connectionUri":"mongodb://"+dbHost+":27017/enzo",
 		"params": {},
 		"collections": [
 			"moment",

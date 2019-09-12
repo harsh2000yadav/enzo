@@ -19,7 +19,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 var cooky = {
-  secret: "work hard",
+  secret: "this is secret",
   resave: true,
   expires: new Date() * 60 * 60 * 24 * 7,
   saveUninitialized: true
@@ -28,7 +28,7 @@ var cooky = {
 
 app.sessionMiddleware = session(cooky);
 
-app.set("trust proxy", 1); // trust first proxy
+app.set("trust proxy", 1); 
 app.use(app.sessionMiddleware);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -43,9 +43,7 @@ app.use("/api", restApi);
 app.use("/category", categoryRouter);
 app.use("/chat", chatRouter);
 
-// catch 404 and forward to error handler
 
-
-app.listen(4000, console.log('Running at 4000'))
+// app.listen(4000, console.log('Running at 4000'))
 
 module.exports = app;

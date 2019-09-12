@@ -470,7 +470,7 @@ a ~ a {
 
 .tab-div {
   color: white;
-  background: linear-gradient(150deg,#FFC312 10%,rgb(38, 183, 110) 90%); 
+  background: linear-gradient(150deg,#FFC312 10%,rgb(17, 8, 138) 99%); 
 
 }
 .padding {
@@ -536,7 +536,8 @@ h1,h2,h3,h4,h5,h6,a,p,body,html,div,span,form,input {
 }
 .top-navbar {
 	border-bottom-color: black;
-	border-bottom-width: 10px;
+  border-bottom-width: 10px;
+  background-color: #FFC312;
 }
 .top-navbar h2,
 .container-fluid h2 {

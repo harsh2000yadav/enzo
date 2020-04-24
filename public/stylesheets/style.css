@@ -409,8 +409,8 @@ html {
   transition-timing-function: ease-in-out;
   padding: 0;
   margin: 5px;
+}
 
-  &:focus,
   &:hover {
     box-shadow: 1px 4px 5px 1px rgba(0,0,0,0.1);
   }
@@ -421,6 +421,7 @@ html {
     transition-duration: 10ms;
   }
 }
+
 
 .google-button__icon {
   display: inline-block;
@@ -470,7 +471,7 @@ a ~ a {
 
 .tab-div {
   color: white;
-  background: linear-gradient(150deg,#FFC312 10%,rgb(17, 8, 138) 99%); 
+  background-color: #FFC312;
 
 }
 .padding {

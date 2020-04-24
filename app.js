@@ -19,7 +19,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 var cooky = {
-  secret: "this is secret",
+  secret: "this is for encryption",
   resave: true,
   expires: new Date() * 60 * 60 * 24 * 7,
   saveUninitialized: true

@@ -10,14 +10,14 @@ Features: -Login/Signup <br>
           -Edit profile<br>
 					<br>
 Technologies Used: -HTML<br>
-									 -CSS<br>
-									 -Bootstrap<br>
-									 -Javascript<br>
-									 -jQuery<br>
-									 -NodeJS<br>
-									 -MongoDB<br>
-									 -Express<br>
-									 -EJS<br>
+						 -CSS<br>
+						 -Bootstrap<br>
+						 -Javascript<br>
+						 -jQuery<br>
+						 -NodeJS<br>
+						 -MongoDB<br>
+						 -Express<br>
+						 -EJS<br>
 									 
 
 Fields in Database: -username<br>

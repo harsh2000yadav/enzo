@@ -6,7 +6,7 @@ module.exports = {
 	},
 	"db": {
 		// "connectionUri":"mongodb://"+dbHost+":27017/enzo",
-		"connectionUri":"mongodb+srv://Enzo:enzoharsh@cluster0-5xuew.mongodb.net/test?retryWrites=true&w=majority",
+		"connectionUri":"mongodb+srv://harsh:12345@cluster0.nixff.mongodb.net/enzoharsh?retryWrites=true&w=majority",
 	
 		"params": {},
 		"collections": [

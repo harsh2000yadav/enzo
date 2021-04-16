@@ -30,11 +30,8 @@
     "socket.io": "^2.2.0",
     "time-ago": "0.2.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "description": "A social media website written in Node.js",
   "main": "./bin/www",
-  "keywords": [
-    
-  ]
+  "keywords": []
 }

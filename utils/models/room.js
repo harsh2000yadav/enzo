@@ -5,7 +5,7 @@ var bcrypt = require("bcrypt-nodejs");
 // define the schema for our user model
 const MongoClient = require('mongodb').MongoClient;
 const uri = "mongodb+srv://harsh:12345@cluster0.nixff.mongodb.net/enzoharsh?retryWrites=true&w=majority";
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URI || uri, { useNewUrlParser: true, useUnifiedTopology: true })
 
 /* mongoose.connect(require("../../config/app").db.connectionUri, {
   useNewUrlParser: true

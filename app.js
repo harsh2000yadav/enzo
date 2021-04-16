@@ -44,6 +44,6 @@ app.use("/category", categoryRouter);
 app.use("/chat", chatRouter);
 
 
-app.listen(4000, console.log('Running at 4000'))
+//app.listen(4000, console.log('Running at 4000'))
 
 module.exports = app;
